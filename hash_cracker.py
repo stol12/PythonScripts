@@ -6,7 +6,7 @@ ascii_banner = pyfiglet.figlet_format("No-Link \n Python 4 Pentesters \n HASH CR
 print(ascii_banner)
 
 
-print("Note: This script is for ethically use only..")
+print("Note: This script is for ethical use only..")
 print("MD5 Hash Cracker! version:1.0.0")
 print("                                             ")
 print(" +=========================================+ ")
@@ -29,7 +29,7 @@ while(type_of_hash.lower() != 'md5' and type_of_hash.lower() != 'sha256'):
     print("Unrecognized hash format, please try again")
     type_of_hash = input("Enter type of hash (md5 or sha256): ")
 
-wordlist_location = "/run/media/dimitar/Disk/kali-wordlists/SecLists/Passwords/darkc0de.txt"
+wordlist_location = input("Enter the location of the wordlist that you would like to use")
 hash_input = str(input('Enter hash to be cracked: '))
 print("\n")
 
